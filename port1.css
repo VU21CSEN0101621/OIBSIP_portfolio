@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    color: #333; /* Dark text color */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #222; /* Dark background color */
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #a0a0a0; /* Light gray on hover */
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #ddd; /* Light gray background color */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #555; /* Dark gray text color */
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: #333; /* Dark text color */
+}
+
+.home-content p {
+    font-size: 20px;
+    color: #666; /* Medium gray text color */
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(20, 19, 19, 0.7);
+    margin-left: 25%;
+}
+
+.home-sci a {
+    display: inline-flex;
+    color: #222; /* Dark text color */
+}
+
+.shark {
+    color: #fff; /* White text color */
+}
+
+.about-content, .skills-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.about-content h2, .skills-content h2, .contact-content h2 {
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.skills-content ul {
+    list-style: none;
+}
+
+.skills-content li {
+    background-color: #ddd; /* Light gray background color */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-sci a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333; /* Dark text color */
+    text-decoration: none;
+}
+
+.contact-sci a i {
+    margin-right: 5px;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-box:hover {
+    background-color: #444; /* Darker background color on hover */
+}
